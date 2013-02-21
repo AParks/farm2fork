@@ -1,0 +1,18 @@
+<table>
+  <tr>
+    <th>Market Name</th>
+    <th>Website</th>
+  </tr>
+
+
+<% @farms.each do |farm| %>
+  <tr>
+ 	<td><%= farm.MarketName %></td>
+  	<td>
+  		<a href="<%= farm.Website %>"> <%= farm.Website %> </a>
+  	</td>
+  </tr>
+<% end %>
+
+
+</table>

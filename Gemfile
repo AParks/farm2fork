@@ -5,4 +5,5 @@ gem "mongodb"
 gem 'haml'
 gem "bson_ext"
 gem 'mongo', :git => 'git://github.com/mongodb/mongo-ruby-driver.git'
+gem 'mongo_mapper'
 
